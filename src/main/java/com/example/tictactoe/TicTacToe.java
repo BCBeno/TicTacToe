@@ -1,6 +1,8 @@
 package com.example.tictactoe;
 import javafx.application.Application;
+import javafx.geometry.HPos;
 import javafx.geometry.Pos;
+import javafx.geometry.VPos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -35,7 +37,7 @@ public class TicTacToe extends Application {
         stage.setTitle("Tic Tac Toe");
         stage.setResizable(false);
         GridPane TurnGrid = new GridPane();
-        TurnGrid.setPrefSize(400, 400);
+        TurnGrid.setPrefSize(400, 450);
         this.turn = 'X';
         Label Turn = new Label("Turn: "+ turn);
         Turn.setFont(Font.font("Arial", 25));
@@ -188,7 +190,26 @@ public class TicTacToe extends Application {
         reset.setPrefSize(100, 50);
         TurnGrid.add(reset, 1, 4);
 
+        Button exit = new Button("Exit");
+        exit.setOnAction(e ->{
+            stage.close();
+        });
+        exit.setAlignment(Pos.CENTER);
+        exit.setPrefSize(50, 25);
+        TurnGrid.add(exit, 2, 4);
 
+
+        Label Credit = new Label("Made by Beno, 2024");
+        Credit.setFont(Font.font("Arial", 10));
+        Credit.setAlignment(Pos.CENTER);
+        TurnGrid.add(Credit, 0, 4);
+
+        GridPane.setHalignment(exit, HPos.CENTER);
+        GridPane.setValignment(exit, VPos.CENTER);
+        GridPane.setHalignment(reset, HPos.CENTER);
+        GridPane.setValignment(reset, VPos.CENTER);
+        GridPane.setHalignment(Credit, HPos.CENTER);
+        GridPane.setValignment(Credit, VPos.CENTER);
 
         stage.setScene(TurnScene);
         stage.show();
