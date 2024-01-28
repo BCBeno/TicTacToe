@@ -42,6 +42,6 @@ This is a simple implementation of the classic Tic Tac Toe game in Java, utilizi
 If you would like to contribute to the project or report issues, feel free to fork the repository, make changes, and submit pull requests. For bug reports or feature requests, please open an issue.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the (LICENSE.md)[https://github.com/BCBeno/TicTacToe/blob/master/LICENSE] file for details.
 
 
