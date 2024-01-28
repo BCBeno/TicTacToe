@@ -33,14 +33,15 @@ This is a simple implementation of the classic Tic Tac Toe game in Java, utilizi
 4. **Follow the on-screen instructions to make your moves.**
 
 ## Screenshots
-![image](https://github.com/BCBeno/TicTacToe/assets/35098700/b0a6d2e1-16c4-4ef5-acc6-4dab319de134)
-![image](https://github.com/BCBeno/TicTacToe/assets/35098700/3e65e717-27d4-49e3-89e0-02e999667e23)
+![image](https://github.com/BCBeno/TicTacToe/assets/35098700/531587fc-7aae-4fad-9931-7c0537b05f87)
+![image](https://github.com/BCBeno/TicTacToe/assets/35098700/0042d935-0481-41eb-a9f8-075aed7107fe)
+
 
 
 ## Contributions and Issues
 If you would like to contribute to the project or report issues, feel free to fork the repository, make changes, and submit pull requests. For bug reports or feature requests, please open an issue.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BCBeno/TicTacToe/blob/master/LICENSE) file for details.
 
 
