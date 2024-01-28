@@ -15,7 +15,7 @@ This is a simple implementation of the classic Tic Tac Toe game in Java, utilizi
 1. **Clone the repository to your local machine.**
 
     ```bash
-    git clone [https://github.com/your-username/tic-tac-toe-java.git](https://github.com/BCBeno/TicTacToe.git)
+    git clone https://github.com/BCBeno/TicTacToe.git
     ```
 
 2. **Compile the Java code.**
