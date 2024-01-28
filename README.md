@@ -37,10 +37,10 @@ This is a simple implementation of the classic Tic Tac Toe game in Java, utilizi
 ![image](https://github.com/BCBeno/TicTacToe/assets/35098700/3e65e717-27d4-49e3-89e0-02e999667e23)
 
 
-##Contributions and Issues
+## Contributions and Issues
 If you would like to contribute to the project or report issues, feel free to fork the repository, make changes, and submit pull requests. For bug reports or feature requests, please open an issue.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
