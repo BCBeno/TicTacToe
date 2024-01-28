@@ -22,6 +22,7 @@ public class TicTacToe extends Application {
         {
             button[i].setText(" ");
             button[i].setDisable(false);
+            button[i].setStyle(null);
         }
     }
 
