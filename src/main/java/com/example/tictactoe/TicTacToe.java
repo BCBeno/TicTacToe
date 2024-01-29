@@ -1,5 +1,6 @@
 package com.example.tictactoe;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.geometry.HPos;
 import javafx.geometry.Pos;
 import javafx.geometry.VPos;
@@ -10,6 +11,7 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
+import stage2.*;
 
 
 import java.io.IOException;
@@ -191,9 +193,18 @@ public class TicTacToe extends Application {
         reset.setPrefSize(100, 50);
         TurnGrid.add(reset, 1, 4);
 
+        Button stats = new Button("Stats");
+        stats.setOnAction(e ->{
+            logic.StatsRec(TurnScene);
+            stage.close();
+        });
+        stats.setAlignment(Pos.CENTER);
+        stats.setPrefSize(50, 25);
+        TurnGrid.add(stats, 2, 0);
+
         Button exit = new Button("Exit");
         exit.setOnAction(e ->{
-            stage.close();
+            Platform.exit();
         });
         exit.setAlignment(Pos.CENTER);
         exit.setPrefSize(50, 25);
@@ -211,6 +222,8 @@ public class TicTacToe extends Application {
         GridPane.setValignment(reset, VPos.CENTER);
         GridPane.setHalignment(Credit, HPos.CENTER);
         GridPane.setValignment(Credit, VPos.CENTER);
+        GridPane.setHalignment(stats, HPos.CENTER);
+        GridPane.setValignment(stats, VPos.CENTER);
 
         stage.setScene(TurnScene);
         stage.show();
